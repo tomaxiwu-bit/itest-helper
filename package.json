@@ -1,0 +1,8 @@
+{
+  "name": "itest-helper",
+  "private": true,
+  "version": "1.0.1",
+  "scripts": {
+    "test": "node --check itest-helper.user.js && node --test tests/*.test.cjs"
+  }
+}
